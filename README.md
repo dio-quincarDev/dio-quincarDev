@@ -1,7 +1,7 @@
-<h1 align="center">Hi 👋, I'm Diogenes</h1>
-<h3 align="center">A passionate Backend Developer From Panama</h3>
+<h1 align="center">Hola 👋, I'm Diogenes</h1>
+<h3 align="center">A Backend Developer From Panama</h3>
 
-- 🔭 I’m currently working on **ErP Bar**
+- 🔭 I’m currently working on **My Carrer Path**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
