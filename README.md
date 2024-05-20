@@ -1,4 +1,4 @@
-<h1 align="center">Hola 👋, I'm Diogenes</h1>
+<h1 align="center">Hola, I'm Diogenes</h1>
 <h3 align="center">A Backend Developer From Panama</h3>
 
 - 🔭 I’m currently working on **My Carrer Path**
