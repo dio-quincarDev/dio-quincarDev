@@ -1,83 +1,85 @@
-<h1 align="center">¡Hola! 👋 Soy Diogenes</h1>
-<h3 align="center">Desarrollador Backend de Panamá 🇵🇦</h3>
+<h1 align="center">¡Hola! 👋 Soy Diógenes</h1>
+<h3 align="center">Backend Developer desde Panamá 🇵🇦</h3>
 
+---
 
-### 👨‍💻 Sobre mí
+### 🚀 Sobre mí
 
-- 🔭 Actualmente estoy trabajando en **mi desarrollo profesional como Backend Developer**
-- 🌱 Estoy aprendiendo y mejorando mis habilidades en **Java y Spring Boot**
-- 💬 Puedes preguntarme sobre **Java, SQL y desarrollo backend**
-- 🎯 Mi objetivo es **convertirme en un buen desarrollador y contribuir a proyectos; como tambien crearlos**
+Soy desarrollador backend especializado en construir y mantener sistemas seguros, escalables y bien estructurados. Trabajo principalmente con **Java, Spring Boot y bases de datos relacionales**, cuidando tanto la lógica de negocio como la calidad del código y la documentación.
+
+Me interesa mantener flujos de trabajo claros, con un control de versiones ordenado y buenas prácticas que faciliten la colaboración. Me gusta el feedback directo y los espacios donde mejorar soluciones en equipo.  
+Siempre busco sumar valor real a los proyectos en los que participo, optimizando procesos y dejando bases sólidas para el crecimiento futuro.
+
+---
 
 ### 🛠️ Stack Tecnológico
 
-<h4>Backend Development</h4>
-<p align="left">
-  <a href="https://www.java.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
-  </a>
-  <a href="https://spring.io/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/>
-  </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  </a>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" alt="Java"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="50" alt="Spring Boot"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" alt="MySQL"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50" alt="PostgreSQL"/>
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="50" alt="Postman"/>
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="50" alt="Git"/>
 </p>
 
-<h4>Bases de Datos</h4>
-<p align="left">
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
-  </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-  </a>
-  <a href="https://mariadb.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/>
-  </a>
-</p>
+---
 
-<h4>Herramientas</h4>
-<p align="left">
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  </a>
-  <a href="https://www.postman.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
-  </a>
-  <a href="https://www.jetbrains.com/idea/" target="_blank" rel="noreferrer">
-    <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.png" alt="intellij idea" width="40" height="40"/>
-  </a>
-  <a href="https://www.eclipse.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/eclipse/eclipse-icon.svg" alt="eclipse" width="40" height="40"/>
-  </a>
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vs code" width="40" height="40"/>
-  </a>
-</p>
+### 🌟 Proyectos destacados
 
+#### 💼 [Sistema de Gestión de Empleados](https://github.com/dio-quincarDev/Gestion-de-Empleados)
+Backend con **Java 17, Spring Boot 3.2, MySQL y Flyway**, desarrollado para automatizar la gestión de empleados, control de consumos, asistencia, horarios y reportes por email en un bar moderno de Panamá.
 
+- Búsqueda avanzada y filtros por rol o estado
+- Registro de asistencia con cálculo de horas trabajadas
+- Generación automática de reportes con Thymeleaf y envío por correo
+- Arquitectura en capas con dominio claro y validaciones robustas
 
+---
 
-### 📊 Estadísticas de GitHub
+#### 🚗 [Arrendadora de Autos](https://github.com/dio-quincarDev/ArrendadoraDeAutos)
+Sistema para gestión integral de alquiler de vehículos, construido con **Java 21, Spring Boot 3.2, Spring Security + JWT y Twilio**.
+
+- Autenticación y control de acceso por roles con JWT
+- Reportes exportables en PDF, Excel y Charts
+- Notificaciones automáticas por SMS usando Twilio
+- API documentada con Swagger y preparada para pruebas con Postman
+
+---
+
+### 🎯 Objetivos 2025
+
+- Mejorar conocimientos en arquitectura hexagonal y DDD con Spring
+- Adoptar Docker y Kubernetes para despliegues escalables
+- Contribuir activamente en proyectos open source
+- Lanzar mi primer microservicio en producción en la nube
+
+---
+
+### 📈 Estadísticas de GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dio-quincardev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=dio-quincardev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats"/>
 </p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dio-quincardev&theme=tokyonight&hide_border=true&layout=compact" alt="langs"/>
+</p>
+
+---
+
+### 🤝 Conectemos
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dio-quincardev&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dio-quincardev&theme=tokyonight" />
-</p>
-
-
-### 🤝 Conéctate conmigo
-
-<p align="left">
   <a href="https://linkedin.com/in/dio-quincar" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dio-quincar" height="30" width="40" />
-  </a> <a href="mailto:dio-quincar@outlook.com" target="blank"> <img align="center" src="https://img.icons8.com/color/48/000000/ms-outlook.png" alt="Outlook" height="30" width="40" /> </a>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
+  </a>
+  <a href="mailto:dio-quincar@outlook.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/>
+  </a>
 </p>
+
+---
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Hecho%20con-❤️-ff69b4?style=for-the-badge" alt="hecho con amor"/>
+</div>
