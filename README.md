@@ -98,7 +98,7 @@ Siempre busco sumar valor real a los proyectos en los que participo, optimizando
     <img src="https://img.shields.io/badge/Contrataciones-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email para Contrataciones"/>
   </a>
   <a href="https://paypal.me/Dquincar20" target="_blank">
-    <img src="https://img.shields.io/badge/Soporte_Desarrollo-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal para Soporte"/>
+    <img src="https://img.shields.io/badge/Apóyame-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal para Soporte"/>
   </a>
 
 </p>
