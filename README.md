@@ -1,11 +1,24 @@
-<h1 align="center">¡Hola! 👋 Soy Diógenes</h1>
-<h3 align="center">Backend Developer desde Panamá 🇵🇦</h3>
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=¡Hola!%20👋%20Soy%20Diógenes&center=true&size=32&duration=3000&color=2E8B57" alt="Typing Animation"/> 
+</h1>
+
+<h3 align="center">
+  <img src="https://img.shields.io/badge/Backend%20Developer-000000?style=for-the-badge&logo=spring&logoColor=white" alt="Backend Developer"/>
+  
+  <img src="https://img.shields.io/badge/Java-D96C00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Boot"/>
+</h3>
+
+<p align="center">
+  📌 Desde Panamá 🇵🇦
+</p>
 
 ---
 
 ### 🚀 Sobre mí
 
-Soy desarrollador backend especializado en construir y mantener sistemas seguros, escalables y bien estructurados. Trabajo principalmente con **Java, Spring Boot y bases de datos relacionales**, cuidando tanto la lógica de negocio como la calidad del código y la documentación.
+Soy desarrollador backend enfocado en construir y mantener sistemas seguros, escalables y bien estructurados. Trabajo principalmente con **Java, Spring Boot y bases de datos relacionales**, cuidando tanto la lógica de negocio como la calidad del código y la documentación.
 
 Me interesa mantener flujos de trabajo claros, con un control de versiones ordenado y buenas prácticas que faciliten la colaboración. Me gusta el feedback directo y los espacios donde mejorar soluciones en equipo.  
 Siempre busco sumar valor real a los proyectos en los que participo, optimizando procesos y dejando bases sólidas para el crecimiento futuro.
@@ -15,35 +28,32 @@ Siempre busco sumar valor real a los proyectos en los que participo, optimizando
 ### 🛠️ Stack Tecnológico
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" alt="Java"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="50" alt="Spring Boot"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" alt="MySQL"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50" alt="PostgreSQL"/>
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="50" alt="Postman"/>
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="50" alt="Git"/>
+  <img src="https://skillicons.dev/icons?i=java,spring,mysql,postgresql,postman,git,vue&theme=dark" alt="Tecnologías principales: Java, Spring Boot, MySQL, PostgreSQL, Postman, Git, Vue" />
 </p>
 
 ---
 
-### 🌟 Proyectos destacados
+#### 💻 Proyectos Personales
 
-#### 💼 [Sistema de Gestión de Empleados](https://github.com/dio-quincarDev/Gestion-de-Empleados)
-Backend con **Java 17, Spring Boot 3.2, MySQL y Flyway**, desarrollado para automatizar la gestión de empleados, control de consumos, asistencia, horarios y reportes por email en un bar moderno de Panamá.
+| Proyecto | Tecnologías Clave | Enlace |
+| :--- | :--- | :---: |
+| **Sistema de Gestión de Empleados** | <img src="https://img.shields.io/badge/Java%2017-D96C00?style=flat&logo=openjdk&logoColor=white" alt="Java"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring&logoColor=white" alt="Spring Boot"/> | [🔗 Repositorio](https://github.com/dio-quincarDev/Gestion-de-Empleados) |
+| **Arrendadora de Autos** | <img src="https://img.shields.io/badge/Java%2021-D96C00?style=flat&logo=openjdk&logoColor=white" alt="Java"/> <img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white" alt="JWT"/> | [🔗 Repositorio](https://github.com/dio-quincarDev/ArrendadoraDeAutos) |
 
-- Búsqueda avanzada y filtros por rol o estado
-- Registro de asistencia con cálculo de horas trabajadas
-- Generación automática de reportes con Thymeleaf y envío por correo
-- Arquitectura en capas con dominio claro y validaciones robustas
+#### 🤝 Colaboraciones Recientes
+
+| Proyecto | Tecnologías Clave | Enlace |
+| :--- | :--- | :---: |
+| **FeatureFlag API (p/ BytesColabs)** | <img src="https://img.shields.io/badge/Java%2021-D96C00?style=flat&logo=openjdk&logoColor=white" alt="Java"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring&logoColor=white" alt="Spring Boot"/> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/> | [🔗 Repositorio](https://github.com/dio-quincarDev/feat-flag-api-bytes-colabs) |
+| **SkillLink (Alumnithon)** | <img src="https://img.shields.io/badge/WebSocket-4B8BBE?style=flat&logo=websocket&logoColor=white" alt="WebSocket"/> <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat&logo=spring&logoColor=white" alt="Spring Security"/> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/> | [🔗 Repositorio](https://github.com/R-Mutt22/alumnithon-bad-batch-backend) |
 
 ---
 
-#### 🚗 [Arrendadora de Autos](https://github.com/dio-quincarDev/ArrendadoraDeAutos)
-Sistema para gestión integral de alquiler de vehículos, construido con **Java 21, Spring Boot 3.2, Spring Security + JWT y Twilio**.
+### 📝 Sobre los Proyectos
 
-- Autenticación y control de acceso por roles con JWT
-- Reportes exportables en PDF, Excel y Charts
-- Notificaciones automáticas por SMS usando Twilio
-- API documentada con Swagger y preparada para pruebas con Postman
+<p align="left">
+  Mi trabajo se centra en la **seguridad**, la **arquitectura limpia** y la **escalabilidad**. Los proyectos personales demuestran mi dominio de Java/Spring, mientras que las colaboraciones resaltan mi experiencia en entornos de equipo, **proyectos comunitarios (Bytes Colaborativos)** y flujos de trabajo ordenados, incluyendo sistemas de chat en tiempo real (WebSocket) y desarrollo de APIs complejas.
+</p>
 
 ---
 
@@ -70,16 +80,31 @@ Sistema para gestión integral de alquiler de vehículos, construido con **Java 
 ### 🤝 Conectemos
 
 <p align="center">
+  
+  **🌐 Redes Sociales**
+  <br/>
+  
   <a href="https://linkedin.com/in/dio-quincar" target="blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+  <a href="https://twitter.com/DioQuincary" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/>
+  </a>
+  
+  <br/><br/> **💼 Contacto Profesional & Soporte**
+  <br/>
+  
   <a href="mailto:dio-quincar@outlook.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/>
+    <img src="https://img.shields.io/badge/Contrataciones-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email para Contrataciones"/>
   </a>
+  <a href="https://paypal.me/Dquincar20" target="_blank">
+    <img src="https://img.shields.io/badge/Soporte_Desarrollo-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal para Soporte"/>
+  </a>
+
 </p>
 
 ---
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Hecho%20con-❤️-ff69b4?style=for-the-badge" alt="hecho con amor"/>
+  <img src="https://img.shields.io/badge/Always_Learning_and_Building-🚀-9b59b6?style=for-the-badge" alt="Siempre Aprendiendo y Construyendo"/>
 </div>
