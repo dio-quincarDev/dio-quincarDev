@@ -1,110 +1,198 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=¡Hola!%20👋%20Soy%20Diógenes&center=true&size=32&duration=3000&color=2E8B57" alt="Typing Animation"/> 
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Backend%20Engineer;Java%20%7C%20Spring%20Boot;Clean%20Architecture&center=true&size=28&duration=4000&pause=800&color=2E8B57" />
 </h1>
 
-<h3 align="center">
-  <img src="https://img.shields.io/badge/Backend%20Developer-000000?style=for-the-badge&logo=spring&logoColor=white" alt="Backend Developer"/>
-  
-  <img src="https://img.shields.io/badge/Java-D96C00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Boot"/>
-</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17%2F21-D96C00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+</p>
 
 <p align="center">
-  📌 Desde Panamá 🇵🇦
+  Panama · GMT-5
 </p>
 
 ---
 
-### 🚀 Sobre mí
+## About
 
-Soy desarrollador backend enfocado en construir y mantener sistemas seguros, escalables y bien estructurados. Trabajo principalmente con **Java, Spring Boot y bases de datos relacionales**, cuidando tanto la lógica de negocio como la calidad del código y la documentación.
+Backend Engineer focused on building secure and well-structured systems using Java and Spring.
 
-Me interesa mantener flujos de trabajo claros, con un control de versiones ordenado y buenas prácticas que faciliten la colaboración. Me gusta el feedback directo y los espacios donde mejorar soluciones en equipo.  
-Siempre busco sumar valor real a los proyectos en los que participo, optimizando procesos y dejando bases sólidas para el crecimiento futuro.
+Experience through hands-on projects with emphasis on:
+- security (JWT, Spring Security)
+- clean architecture
+- maintainable design
 
 ---
 
-### 🛠️ Stack Tecnológico
+## Engineering Focus
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,mysql,postgresql,postman,git,vue&theme=dark" alt="Tecnologías principales: Java, Spring Boot, MySQL, PostgreSQL, Postman, Git, Vue" />
+- REST API design (JWT / OAuth2)
+- Spring Boot and Spring Security
+- Hexagonal Architecture (Ports & Adapters)
+- Role-based authorization
+- Error handling and validation
+- Relational database modeling
+- SOLID principles and clean code
+
+---
+
+## Engineering Practices
+
+- Environment-based configuration
+- Modular project structure
+- Separation of concerns
+- Logging and debugging
+- API documentation with Swagger (OpenAPI)
+
+---
+
+## Projects
+
+### Employee Management System
+
+REST API built using **hexagonal architecture**.
+
+**Highlights:**
+- Domain isolated from infrastructure
+- Ports and adapters implementation
+- Clean separation of business logic
+- MySQL persistence
+- Structured validation and error handling
+
+**Stack:**
+<p>
+  <img src="https://img.shields.io/badge/Java-17-D96C00?style=flat&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
+</p>
+
+https://github.com/dio-quincarDev/Gestion-de-Empleados
+
+---
+
+### Car Rental System
+
+Reservation system with authentication and access control.
+
+**Highlights:**
+- JWT authentication
+- Spring Security endpoint protection
+- Business rules for availability
+
+**Stack:**
+<p>
+  <img src="https://img.shields.io/badge/Java-21-D96C00?style=flat&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring&logoColor=white"/>
+</p>
+
+https://github.com/dio-quincarDev/ArrendadoraDeAutos
+
+---
+
+### Feature Flag API
+
+Feature toggle system with **role-based authorization**.
+
+**Highlights:**
+- Feature activation/deactivation per user/role
+- Role-based access control with Spring Security
+- Dynamic feature management
+- PostgreSQL persistence
+
+**Stack:**
+<p>
+  <img src="https://img.shields.io/badge/Java-21-D96C00?style=flat&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white"/>
+</p>
+
+https://github.com/dio-quincarDev/feat-flag-api-bytes-colabs
+
+---
+
+## Architecture
+
+### System Overview
+
+![Flowchart](https://imgr.whimsical.com/thumbnails/HLpUW98dhoNqaEeH466MYh/6WJ2CBNTAAwhjMa2WxyZFK)
+
+### Authentication Flow (OAuth2 + JWT)
+
+![Sequence](https://imgr.whimsical.com/thumbnails/JDParZFsDCnLkTipuTkStq/Kv95ehqJp3D5vkMNcN5Sq1)
+
+---
+
+### Key Architecture Decisions
+
+- API Gateway as single entry point  
+- Centralized authentication via Auth Service (OAuth2 + JWT)  
+- Stateless security using JWT tokens  
+- Role-based authorization handled by Spring Security  
+- Microservices separation between Auth and Core domain  
+
+---
+
+### Request Lifecycle
+
+1. Client request enters through API Gateway  
+2. JWT token is validated  
+3. Auth Service handles authentication when required  
+4. Core Service processes business logic  
+5. Data retrieved from PostgreSQL or Redis  
+6. Response returned to client  
+
+---
+
+### Auth Service Responsibilities
+
+- OAuth2 login (Google)  
+- JWT generation and validation  
+- Refresh token handling  
+- Role-based access control  
+- User and tenant resolution  
+
+---
+
+## Current Work
+
+- Building Auth Service (OAuth2 + JWT, role-based access)  
+- Designing microservices architecture with API Gateway  
+- Implementing secure request flows and token validation  
+
+---
+
+## Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Vue.js-3-4FC08D?style=flat&logo=vuedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black"/>
 </p>
 
 ---
 
-#### 💻 Proyectos Personales
+## GitHub Stats
 
-| Proyecto | Tecnologías Clave | Enlace |
-| :--- | :--- | :---: |
-| **Sistema de Gestión de Empleados** | <img src="https://img.shields.io/badge/Java%2017-D96C00?style=flat&logo=openjdk&logoColor=white" alt="Java"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring&logoColor=white" alt="Spring Boot"/> | [🔗 Repositorio](https://github.com/dio-quincarDev/Gestion-de-Empleados) |
-| **Arrendadora de Autos** | <img src="https://img.shields.io/badge/Java%2021-D96C00?style=flat&logo=openjdk&logoColor=white" alt="Java"/> <img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white" alt="JWT"/> | [🔗 Repositorio](https://github.com/dio-quincarDev/ArrendadoraDeAutos) |
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dio-quincardev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+</p>
 
-#### 🤝 Colaboraciones Recientes
-
-| Proyecto | Tecnologías Clave | Enlace |
-| :--- | :--- | :---: |
-| **FeatureFlag API (p/ BytesColabs)** | <img src="https://img.shields.io/badge/Java%2021-D96C00?style=flat&logo=openjdk&logoColor=white" alt="Java"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring&logoColor=white" alt="Spring Boot"/> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/> | [🔗 Repositorio](https://github.com/dio-quincarDev/feat-flag-api-bytes-colabs) |
-| **SkillLink (Alumnithon)** | <img src="https://img.shields.io/badge/WebSocket-4B8BBE?style=flat&logo=websocket&logoColor=white" alt="WebSocket"/> <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat&logo=spring&logoColor=white" alt="Spring Security"/> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/> | [🔗 Repositorio](https://github.com/R-Mutt22/alumnithon-bad-batch-backend) |
-
----
-
-### 📝 Sobre los Proyectos
-
-<p align="left">
-  Mi trabajo se centra en la **seguridad**, la **arquitectura limpia** y la **escalabilidad**. Los proyectos personales demuestran mi dominio de Java/Spring, mientras que las colaboraciones resaltan mi experiencia en entornos de equipo, **proyectos comunitarios (Bytes Colaborativos)** y flujos de trabajo ordenados, incluyendo sistemas de chat en tiempo real (WebSocket) y desarrollo de APIs complejas.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dio-quincardev&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
 
-### 🎯 Objetivos 2025
-
-- Mejorar conocimientos en arquitectura hexagonal y DDD con Spring
-- Adoptar Docker y Kubernetes para despliegues escalables
-- Contribuir activamente en proyectos open source
-- Lanzar mi primer microservicio en producción en la nube
-
----
-
-### 📈 Estadísticas de GitHub
+## Contact
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dio-quincardev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dio-quincardev&theme=tokyonight&hide_border=true&layout=compact" alt="langs"/>
-</p>
-
----
-
-### 🤝 Conectemos
-
-<p align="center">
-  
-  **🌐 Redes Sociales**
-  <br/>
-  
-  <a href="https://linkedin.com/in/dio-quincar" target="blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="https://linkedin.com/in/dio-quincar">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://twitter.com/DioQuincar" target="_blank">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)"/>
-  </a>
-  
-  <br/><br/> **💼 Contacto Profesional & Soporte**
-  <br/>
-  
   <a href="mailto:dio-quincar@outlook.com">
-    <img src="https://img.shields.io/badge/Contrataciones-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email para Contrataciones"/>
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://paypal.me/Dquincar20" target="_blank">
-    <img src="https://img.shields.io/badge/Apóyame-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal para Soporte"/>
-  </a>
-
 </p>
-
----
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Always_Learning_and_Building-🚀-9b59b6?style=for-the-badge" alt="Siempre Aprendiendo y Construyendo"/>
-</div>
