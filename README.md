@@ -155,11 +155,11 @@ https://github.com/dio-quincarDev/feat-flag-api-bytes-colabs
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dio-quincardev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=dio-quincarDev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dio-quincardev&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dio-quincarDev&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
 </p>
 
 ---
