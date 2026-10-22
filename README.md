@@ -7,6 +7,8 @@
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
   <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
   <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
 </p>
 
 ---
@@ -18,6 +20,22 @@
 Focused on building secure, scalable backend systems using Java and Spring.
 
 My approach goes beyond implementation — I design **systems with clear boundaries, strong security, and maintainable structure**, aligned with real-world SaaS patterns.
+
+---
+
+## Currently building
+
+**Pymeq — Forensic Accounting for Small Business**  
+[Repository](https://github.com/dio-quincarDev/pymes-admin) · Beta
+
+- Multi-tenant SaaS with dedicated auth, gateway and core services
+- OAuth2 (Google) login and stateless JWT, with token blacklist on Redis
+- API Gateway as single entry point; internal services run on an isolated network
+- CI/CD on GitHub Actions: build, tests, security check, staging and production deploys
+- Multi-architecture images (`linux/amd64`, `linux/arm64`) via QEMU and Docker Buildx
+- Branch workflow `feature → develop → main`
+
+Current focus: auth service and edge validation at the gateway.
 
 ---
 
@@ -43,20 +61,10 @@ My approach goes beyond implementation — I design **systems with clear boundar
 
 ## Architecture
 
-<details>
-  <summary><strong>View Architecture Diagrams</strong></summary>
+![Authentication flow](https://raw.githubusercontent.com/dio-quincarDev/pymes-admin/main/backend/auth/docs/strategies/pymes-auth-flow.png
+)
 
-  <br/>
-
-  ### Request Flow
-
-  ![Flowchart](https://whimsical.com/dio-dev/flujo-arquitectura-pymes-admin-DGGWQsg4QKYd2v4CTMzheX)
-
-  ### Authentication Flow (OAuth2 + JWT)
-
-  ![Sequence](https://imgr.whimsical.com/thumbnails/JDParZFsDCnLkTipuTkStq/Kv95ehqJp3D5vkMNcN5Sq1)
-
-</details>
+Credentials go through the API Gateway to the Auth Service: Redis applies the rate limit, PostgreSQL resolves the user and tenant, the audit log is written, and the access and refresh tokens are issued. On later requests the gateway validates the JWT against the Redis blacklist and forwards the request with identity headers.
 
 ---
 
@@ -72,23 +80,16 @@ My approach goes beyond implementation — I design **systems with clear boundar
 
 ## Featured Projects
 
-### Pymeq (In Progress)
+### [Fleet Control](https://github.com/dio-quincarDev/fleet-control)
 
-Multi-tenant SaaS-oriented system.
-
-**Current focus: Auth Service**
-
-- OAuth2 login (Google)
-- JWT generation and validation
-- Role-based access control
-- Tenant-aware identity handling
+Fleet management backend built with a microservices architecture: 9 autonomous services, with CI/CD pipelines and seeded demo data.
 
 **Stack:**
-Java 21 · Spring Boot · Spring Security · PostgreSQL
+Java · Spring Boot · Docker · GitHub Actions
 
 ---
 
-### Employee Management System
+### [Employee Management System](https://github.com/dio-quincarDev/gestion-de-empleados)
 
 REST API built using hexagonal architecture.
 
@@ -96,15 +97,14 @@ REST API built using hexagonal architecture.
 - Domain isolated from infrastructure
 - Ports and adapters implementation
 - Structured validation and error handling
+- Database migrations with Flyway
 
 **Stack:**
-Java · Spring Boot · MySQL
-
-https://github.com/dio-quincarDev/Gestion-de-Empleados
+Java · Spring Boot · MySQL · Flyway
 
 ---
 
-### Feature Flag API
+### [Feature Flag API](https://github.com/dio-quincarDev/feat-flag-api-bytes-colabs)
 
 Feature toggle system with fine-grained authorization.
 
@@ -116,7 +116,16 @@ Feature toggle system with fine-grained authorization.
 **Stack:**
 Java · Spring Security · PostgreSQL
 
-https://github.com/dio-quincarDev/feat-flag-api-bytes-colabs
+---
+
+### [Portfolio](https://github.com/dio-quincarDev/portfolio)
+
+Personal site, deployed on Oracle Cloud Infrastructure Free Tier.
+
+**Stack:**
+Quasar · Vue 3 · Docker · GitHub Actions · Nginx
+
+**Live:** [https://dioquincar.dev](https://dioquincar.dev)
 
 ---
 
@@ -126,7 +135,8 @@ https://github.com/dio-quincarDev/feat-flag-api-bytes-colabs
 - Clear separation of responsibilities  
 - Environment-based configuration  
 - API documentation with Swagger (OpenAPI)  
-- Focus on secure request flows  
+- Secure request flows  
+- Pull requests with CI checks before merge  
 
 ---
 
@@ -141,11 +151,14 @@ https://github.com/dio-quincarDev/feat-flag-api-bytes-colabs
 **Data**
 - PostgreSQL
 - MySQL
+- Redis
 
 **Tools**
-- Docker
+- Docker (Buildx, multi-architecture)
+- GitHub Actions
 - Git
-- Swagger
+- Swagger / OpenAPI
+- Nginx / Caddy
 
 **Frontend**
 - Vue 3
@@ -158,16 +171,14 @@ https://github.com/dio-quincarDev/feat-flag-api-bytes-colabs
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dio-quincarDev&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dio-quincarDev&theme=tokyonight&hide_border=true" alt="Activity Graph"/>
-</p>
-
 ---
 
 ## Contact
 
+**Portfolio:** [https://dioquincar.dev](https://dioquincar.dev)
+
 <p align="center">
-  <a href="https://linkedin.com/in/dio-quincar">
+  <a href="https://linkedin.com/in/dioquincar">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:dio-quincar@outlook.com">
