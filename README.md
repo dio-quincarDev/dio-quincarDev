@@ -53,16 +53,15 @@ Current focus: auth service and edge validation at the gateway.
   - Request lifecycle design and validation flow
 
 - **Architecture**
-  - Hexagonal Architecture (Ports & Adapters)
-  - Domain isolation from frameworks
-  - Clean separation of concerns
+  - Modular services behind a single gateway (Auth and Core)
+  - Domain modules with their own controller, service and repository
+  - One PostgreSQL instance with an isolated schema per service
 
 ---
 
 ## Architecture
 
-![Authentication flow](https://raw.githubusercontent.com/dio-quincarDev/pymes-admin/main/backend/auth/docs/strategies/pymes-auth-flow.png
-)
+![Authentication flow](https://raw.githubusercontent.com/dio-quincarDev/pymes-admin/main/backend/auth/docs/strategies/pymes-auth-flow.png)
 
 Credentials go through the API Gateway to the Auth Service: Redis applies the rate limit, PostgreSQL resolves the user and tenant, the audit log is written, and the access and refresh tokens are issued. On later requests the gateway validates the JWT against the Redis blacklist and forwards the request with identity headers.
 
